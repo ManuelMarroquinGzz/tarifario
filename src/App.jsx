@@ -192,7 +192,7 @@ const exportarExcel = () => {
             <tr key={`${fila.empresa}-${fila.tipo}`} className="hover:bg-gray-100">
               <td className="border px-4 py-2 flex items-center gap-2">
                 <img
-                  src={`/images/${fila.empresa}.png`}
+                  src={`/tarifario/images/${fila.empresa}.png`}
                   alt={fila.empresa}
                   className="w-5 h-5"
                 />
